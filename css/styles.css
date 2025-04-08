@@ -429,6 +429,11 @@ video {
     font          : inherit;
     vertical-align: baseline;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 5rem);
+}
+
 
 /* HTML5 display-role reset for older browsers */
 article,
